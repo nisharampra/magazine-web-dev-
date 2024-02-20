@@ -1,0 +1,146 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+/* slide show css */
+.splide {
+  position: fixed;
+  background-color: #f4fa;
+  background-size: cover;
+}
+/* slide text css */
+.first-slide-text {
+  color: #f2f2f2;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+
+/* Top left text */
+.second-slide-text {
+  color: #f2f2f2;
+  font-family: "Oswald", sans-serif;
+   position: absolute;
+  top: 250px;
+  left: 200px;
+}
+
+/* Top left text */
+.third-slide-text {
+  color: #f2f2f2;
+  font-family: "Oswald", sans-serif;
+
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+ /* top nav css starter */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #fdd7e4;
+  color: black;
+}
+/* end of top nave css */
+
+/* responisve website css starter */
+@media (min-aspect-ratio: 16/9) {
+  #splide {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-aspect-ratio: 16/9) {
+  #splide {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* responisve website css end  */
+
+
+/* copy right text  css*/
+.copyright {
+  color: #fdd7e4;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* end  of copy right text css */
+
+/* start of youtbe icon css */
+.youtube-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 150px;
+  left: 90px;
+}
+
+.youtube-icon:hover {
+  color: black;
+}
+
+/* end of youtube icon css */
+
+/* start of .instagram-icon css */
+.instagram-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 200px;
+  left: 90px;
+}
+
+.instagram-icon:hover {
+  color: black;
+}
+
+/* end of .instagram-icon css */
+
+/* start of tik tok icon css */
+.tiktok-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 250px;
+  left: 90px;
+}
+
+.tiktok-icon:hover {
+  color: black;
+}
+/* end of tik tok icon css */
+
+/* :start of face book icon css */
+.facebook-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 300px;
+  left: 90px;
+}
+
+.facebook-icon:hover {
+  color: black;
+}
+
+/* end of face book icon css */

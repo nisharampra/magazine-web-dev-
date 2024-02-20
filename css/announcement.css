@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+/* background video  css*/
+#videoBG {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+/* media gallery starter css */
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* end of media gallery css */
+
+/* countdownn  css */
+h1{
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 300px;
+  text-transform: uppercase;
+}
+
+.countdown{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+  
+.countdown > div{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+.number {
+  font-weight: 500;
+  font-size: 44px;
+  color: #CAA78C;
+}
+
+div span:last-of-type{
+  font-size: 12px;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+  h1{
+    font-size: 40px;
+  }
+  
+  .countdown{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .countdown > div{
+    background-color: #fff;
+    width: 250px;
+    height: 60px;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  div span:last-of-type{
+  font-size: 24px;
+    text-transform: uppercase;
+}
+  .number {
+  font-size: 34px;
+}
+}
+
+/* copy right text  css*/
+.copyright {
+  color: #fdd7e4;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* end  of copy right text css */
+
+/* start of youtbe icon css */
+.youtube-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 150px;
+  left: 90px;
+}
+
+.youtube-icon:hover {
+  color: black;
+}
+
+/* end of youtube icon css */
+
+/* start of .instagram-icon css */
+.instagram-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 200px;
+  left: 90px;
+}
+
+.instagram-icon:hover {
+  color: black;
+}
+
+/* end of .instagram-icon css */
+
+/* start of tik tok icon css */
+.tiktok-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 250px;
+  left: 90px;
+}
+
+.tiktok-icon:hover {
+  color: black;
+}
+/* end of tik tok icon css */
+
+/* :start of face book icon css */
+.facebook-icon {
+  color: pink;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 300px;
+  left: 90px;
+}
+
+.facebook-icon:hover {
+  color: black;
+}
+
+/* end of face book icon css */
+
+
